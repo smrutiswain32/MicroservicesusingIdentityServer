@@ -43,7 +43,7 @@ namespace MicroservicesusingIdentityServer.Controllers
         [HttpGet("Test")]
         public IActionResult Test()
         {
-            return new ObjectResult(new { Id = 123, Name = "Hero" });
+            return new ObjectResult(new { Id = 12, Name = "Hero" });
         }
 
 
